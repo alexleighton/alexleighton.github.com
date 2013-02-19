@@ -1,4 +1,1 @@
-alexleighton.github.com
-=======================
-
-Resume
+Resume for Alex Leighton.
