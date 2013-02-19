@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Alex Leighton :: Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+  <!-- Thanks Go To:
+       * Stephen M. McKamey [http://stephen.mckamey.com/resume/], for layout
+         inspiration.
+       * Bootstrap [http://twitter.github.com/bootstrap/], for CSS reset, basic
+         styles, and responsive grid.
+       * Subtle Patterns [http://subtlepatterns.com/], for the background image.
+  -->
+</head>
+<!-- http://stephen.mckamey.com/resume/ -->
+<body>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div id="content" class="span8 offset2">
+
+        <div style="float: right;">
+          Eugene, OR<br/>
+          <a href="#mailto" onclick="var me='leightonalex';var dom='gmail.com';this.setAttribute('href','mailto:'+me+String.fromCharCode(64)+dom);return true;">
+            <span class="email-user">leightonalex</span>&#64;<span class="email-domain">gmail.com</span>
+          </a><br/>
+          (541) 543-8613
+        </div>
+        <h1 id="title-name">Alex Leighton</h1>
+
+        <hr/>
+        <h2 class="section-heading">Experience</h2>
+        <div style="float:right">2010 - present</div>
+        <h4 class="sub-heading">On Time Systems Inc.</h4>
+        Software Engineer<br/>
+        <a href="http://imagreendriver.com/">imagreendriver.com</a> | Eugene, OR
+        <ul class="exp-list">
+          <li><strong>Mobile Development</strong> <em><small>[Objective C, iOS, Java, Android, JNI, C]</small></em>
+            <ul>
+              <li>Led the development of the Green Driver Android client.</li>
+              <li>Led the development of the RLN Android client.</li>
+              <li>Maintained existing Green Driver iOS client.</li>
+            </ul>
+          </li>
+          <li><strong>Monitoring & Reporting</strong> <em><small>[C++, Javascript, Postgresql]</small></em>
+            <ul>
+              <li>Sole developer of a monitoring, reporting, and notification framework used in all of the backend servers.</li>
+              <li>Made a web-based dashboard for real time viewing of monitored data.</li>
+              <li>Notification that sends emails and text messages on alert status.</li>
+            </ul>
+          </li>
+          <li><strong>Backend Development</strong> <em><small>[C++, Python, C]</small></em>
+            <ul>
+              <li>Developed a query parser for the internal geocoder, achieving an improvement in the runtime by a factor of 10 over the existing parser.</li>
+              <li>Created an efficient binary protocol for exchanging atlas data between tile server and clients. Reduced message size by a factor of 4.</li>
+              <li>Maintained Green Driver backend servers in Python and C++.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <hr/>
+        <h2 class="section-heading">Education</h2>
+        <div class="edu-subsec">
+          <div style="float:right">2009 - 2011</div>
+          <h4 class="sub-heading">Master of Science, Computer and Information Science</h4>
+          University of Oregon, Eugene OR
+        </div>
+
+        <div class="edu-subsec">
+          <div style="float:right">2005 - 2009</div>
+          <h4 class="sub-heading">Bachelor of Arts, Computer Science</h4>
+          Willamette University, Salem OR<br/>
+          Minors in Math, Philosophy<br/>
+          Graduated <em>cum laude</em>
+        </div>
+
+        <hr/>
+        <h2 class="section-heading">Skills</h2>
+        <h4 class="sub-heading">Languages</h4>
+        <dl>
+          <dt>Experienced</dt>
+          <dd>Java, Python, OCaml</dd>
+          <dt>Competent</dt>
+          <dd>C++, C, Haskell, Javascript, Objective C, PHP</dd>
+        </dl>
+        <!-- <em>Experienced:</em> Java, Python, OCaml<br/> -->
+        <!-- <em>Competent:</em> C++, C, Haskell, Javascript, Objective C, PHP -->
+        <h4 class="sub-heading">Technologies</h4>
+        <div class="tech-list">
+          <ul class="column">
+            <li>Android SDK / NDK</li>
+            <li>iOS SDK</li>
+            <li>Java Native Interface</li>
+            <li>pthreads, sockets, poll/epoll</li>
+          </ul>
+          <ul class="column">
+            <li>Twisted event framework</li>
+            <li>SQLAlchemy</li>
+            <li>jQuery</li>
+            <li>HTML / CSS</li>
+          </ul>
+        </div>
+        <br/><br/><br/><br/>
+
+        <hr/>
+        <h2 class="section-heading">Publications</h2>
+        <h4 class="sub-heading">Green Driver: AI in a Microcosm</h4>
+        Coauthor, presented at the AAAI Conference, August 2011 [<a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/view/3648">aaai.org</a>]
+
+        <hr/>
+        <h2 class="section-heading">Additional Activities</h2>
+        <ul>
+          <li>For 2 summers, I was a Web Development intern at Salem Hospital.</li>
+          <li>During graduate school, I was a Teaching Assistant and taught an Introduction to Programming course.</li>
+          <li>Contributed to <a href="http://kivy.org/">Kivy</a>, an open source Python library for graphics applications that make use of new user interfaces, like multi-touch.</li>
+          <li>Participated in the 2007 ACM Programming Contest.</li>
+          <li>Volunteered at North Salem High School helping students learn computer science and math.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

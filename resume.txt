@@ -1,0 +1,91 @@
+Alex Leighton
+leightonalex@gmail.com
+(541) 543-8613
+Eugene, OR
+
+==================================================
+
+Experience
+
+2010 - present
+On Time Systems Inc.
+Software Engineer
+[http://imagreendriver.com] | Eugene, OR
+
+* Mobile Development
+  [Objective C, iOS, Java, Android, JNI, C]
+    * Led the development of the Green Driver Android client.
+    * Led the development of the RLN Android client.
+    * Maintained existing Green Driver iOS client.
+* Monitoring & Reporting
+  [C++, Javascript, Postgresql]
+    * Sole developer of a monitoring, reporting, and notification
+      framework used in all of the backend servers.
+    * Made a web-based dashboard for real time viewing of monitored
+      data.
+    * Notification that sends emails and text messages on alert
+      status.
+* Backend Development
+  [C++, Python, C]
+    * Developed a query parser for the internal geocoder, achieving an
+      improvement in the runtime by a factor of 10 over the existing
+      parser.
+    * Created an efficient binary protocol for exchanging atlas data
+      between tile server and clients. Reduced message size by a
+      factor of 4.
+    * Maintained Green Driver backend servers in Python and C++.
+
+
+==================================================
+
+Education
+
+2009 - 2011
+Master of Science, Computer and Information Science
+University of Oregon (Eugene, OR)
+
+2005 - 2009
+Bachelor of Arts, Computer Science
+Willamette University (Salem, OR)
+Minors in Math, Philosophy.
+Graduated cum laude.
+
+
+==================================================
+
+Technical Skills
+
+Languages
+Experienced: Java, Python, OCaml
+Competent:   C, C++, Objective C, Haskell, PHP, Javascript
+
+Technologies
+* Android SDK / NDK
+* iOS SDK
+* Java Native Interface
+* pthreads, sockets, poll/epoll
+* Twisted event framework
+* SQLAlchemy
+* jQuery
+* HTML / CSS
+
+
+==================================================
+
+Publications
+
+Green Driver: AI in a Microcosm
+Coauthor, presented at the AAAI Conference, August 2011
+[http://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/view/3648]
+
+
+==================================================
+
+Additional Activities
+
+* Contributing to Kivy [http://kivy.org], an open source Python
+  library for graphics applications that make use of new user
+  interfaces, like multi-touch.
+* Participated in the 2007 ACM Programming Contest.
+* Volunteered at North Salem High School helping students learn
+  computer science and math.
