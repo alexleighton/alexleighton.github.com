@@ -1,1 +1,15 @@
-#content{border:0px;}
+body {
+    background-image: none;
+    padding: 0px 0px 0px 0px;
+}
+
+.page {
+    background-image: none;
+    border: 0px;
+    box-shadow: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+}
